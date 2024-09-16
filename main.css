@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("Rose Pattern.png");
+	background-repeat: round;
+}
+h1{
+	visibility: hidden
+}
+#container{width:800px; height: 1500px; background-color: #d80c01; margin: auto}
+.left{
+	width:375px;
+	height: 400px;
+	background-color: rgba(255,229,229,.70);
+	float: left;
+	margin: 10px 15px 10px 10px;
+	padding: 10px;
+}
+.right{
+	width:375px;
+	height: 500px;
+	background-color: rgba(255,229,229,.70);
+	float: left;
+	margin: 10px 5px 10px 10px;
+	padding: 10px;
+}
+footer{
+	width: 800px;
+	height: 20px;
+	background-color: rgba(255,255,255,.50);	
+	border-style: inset;
+	float:left; 
+}
