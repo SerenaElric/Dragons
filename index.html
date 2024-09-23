@@ -5,11 +5,34 @@
 <title>Mythic Galley</title>
 <link rel="stylesheet" href="main.css">
 	<style>
+		div.gallery {
+  margin: 4px;
+  border: 2px solid rgba(226,186,0,1.00);
+  float: left;
+  width: 225px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 		img { display: block;
   margin-left: auto;
   margin-right: auto;}
 	
 	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,12 +44,34 @@
 		<section>
 			<article class="left">
 			<h2 style="font-size:30px; text-align:center">About Me</h2>
-				<p><b><i>My art gallery! I love dragons and all kinds of mythical creatures.</i></b></p>
+				<p><b><i>My art gallery! I love dragons and all kinds of mythical creatures.
+					<a href="https://www.deviantart.com/serenaelric">My Devian Art page.</a></i></b></p>
 			</article>
 			<article class="right">
 				<h3 style="font-size:30px; text-align:center">Gallery</h3>
-				<img src="FireDragon.jpg" alt="FireDragon" width="250">
-				<img src="WindDragon.jpg" alt="WindDragon" width="250">
+				
+	<div class="gallery">
+  <a target="Large" href="FireDragon.jpg">
+    <img src="FireDragon.jpg" alt="FireDragon" width="250">
+  </a>
+  <div class="desc">A firey red dragon hunts for it's prey over the open ocean.</div>
+</div>
+				
+	<div class="gallery">
+  <a target="Large" href="WindDragon.jpg">
+    <img src="WindDragon.jpg" alt="WindDragon" width="250">
+  </a>
+  <div class="desc">High above the mountain tops a wind dragon glides through the sky.</div>
+</div>
+	<div class="gallery">
+  <a target="Large" href="Omega Dragon_God of Death.png">
+    <img src="Omega Dragon_God of Death.png" alt="OmegaDragon" width="250">
+  </a>
+  <div class="desc">The God of Death.</div>
+		<div class="gallery"></div>
+		
+</div>
+				
 			</article>
 		</section>
 	
